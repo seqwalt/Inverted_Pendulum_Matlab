@@ -1,4 +1,4 @@
 # Inverted Pendulum on a Cart
 
-## Simulate and Visualize the System
-This is Matlab code to simulate and visualize a nonlinear and linear model of the classic inverted pendulum on a cart problem.  A PD controller is implemented in both cases. Run either nonlinear_cart_pole.m or linearized_cart_pole.m to get started.
+## Simulate and Visualize
+A nonlinear and linearized model are used for simulation, and a PD controller is implemented in both cases. Run either nonlinear_cart_pole.m or linearized_cart_pole.m to get started.
