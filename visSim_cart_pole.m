@@ -39,7 +39,7 @@ txt.FontSize = coord(4)/30;
 txt.HorizontalAlignment = 'left';
 txt.Position = txt.Position + [-0.1 0 0];
 drawnow
-pause(1)
+pause(4)
 
 %% Visualize all the data
 for j = 2:length(ang)

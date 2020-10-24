@@ -12,17 +12,17 @@ pd = [7 11 -50 -11]; %[pos_kp pos_kd ang_kp ang_kd] -- human design
 %pd = zeros(1,4);
 
 %% Initial Conditions, reference position, input constraint, time length
-x0  = 1; % m
+x0  = -1; % m
 th0 = 0; % rad
 v0  = 0; % m/sec
 w0  = 0; % rad/sec
 
-ref = -1;        % position reference (m)
+ref = 1;        % position reference (m)
 ref_max = 1.45; % max dist (m) from reference the controller will consider
                 % ref_max = 1.45 originally (found by hand with u_max=2.8)
-u_max = 2.8;    % max force (N) controller can apply u_max = 2.8 originally
-                % (reasonable for worm-gear dc motor and 5cm radius wheel)
-t_l = 6;        % time length in seconds
+u_max = 2.8;    % max force controller can ap u_max = 2.8
+                % originally (reasonable for worm-gear dc motor and 5cm radius wheel)
+t_l = 5;        % time length in seconds
 
 %% Solve Differential Equations
 clear vars y;
