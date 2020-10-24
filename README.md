@@ -6,4 +6,4 @@ A nonlinear and linearized model are used for simulation, and a PD controller is
 ![inverted pendulum demo video](https://media.giphy.com/media/qUaoRz9FgLrUBOrs13/giphy.gif)
 </p>
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/qUaoRz9FgLrUBOrs13/giphy.gif" width="816" height="342" />
